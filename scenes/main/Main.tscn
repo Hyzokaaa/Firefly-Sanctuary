@@ -5,3 +5,8 @@
 [node name="Main" type="Node"]
 
 [node name="GameWorld" parent="." instance=ExtResource("1")]
+spawn_radius = 480.0
+destruction_radius = 600.0
+spawn_interval = 1.0
+max_spawn_per_tick = 5
+max_fireflies_alive = 100
