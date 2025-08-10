@@ -1,0 +1,43 @@
+# Godot 4+ specific ignores
+/android/
+.import/
+.export/
+.godot/
+
+# Configuración local y de usuario
+*.cfg
+*.translation
+*.import
+*.tmp
+
+# Export templates y builds
+export_presets.cfg
+*.pck
+*.zip
+*.exe
+*.app
+*.apk
+*.aab
+*.x86_64
+*.dmg
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de backup
+*~
+*.bak
+*.old
+*.orig
+
+# IDEs y editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Python scripts en el proyecto (si usas herramientas externas)
+__pycache__/
+*.pyc
