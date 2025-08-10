@@ -1,2 +1,24 @@
-# Normalize EOL for all files that Git considers text files.
+# Base: texto automático con LF
 * text=auto eol=lf
+
+# Archivos de texto de Godot
+*.gd     text
+*.tscn   text
+*.tres   text
+*.shader text
+*.cfg    text
+*.import text
+
+# Archivos binarios
+*.ogg    binary
+*.wav    binary
+*.mp3    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.webp   binary
+*.bmp    binary
+*.ttf    binary
+*.otf    binary
+*.ico    binary
+*.res    binary
