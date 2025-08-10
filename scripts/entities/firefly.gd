@@ -120,7 +120,6 @@ func _attempt_capture() -> void:
 func _input_event(_viewport: Viewport, event: InputEvent, _shape_idx: int) -> void:
 	if event is InputEventScreenTouch and event.pressed:
 		emit_signal("collected")
-		print("Caputraste tanke")
 		queue_free()
 	elif event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		emit_signal("collected")
